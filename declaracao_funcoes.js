@@ -1,3 +1,12 @@
+// por conta do hoisting, somente a variavel dizerOla que recebe a função será levada para o topo,
+// mas nesse momento ela ainda não sera uma função, somente uma variavel
+// dizerOla("Não compila");
+// dizerTchau('Não compila');
+
+// compila pois o hosting levara a função para o topo
+dizerOi('Compila normalmente');
+
+
 // Declaração Tradicional de função - Função eh como se fosse metodo no java
 function dizerOi(nome) {
 	console.log("Oi " + nome);
