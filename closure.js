@@ -9,6 +9,7 @@
 
 // e existem os closures que são funcoes que retornam funcoes e tem acesso a uma variavel no seu scopo
 // ou seja, closures tem acesso ao scopo pai mesmo se esse scopo tenha sido destruida
+// closures significa encerrado, fechado, ou seja, somente a propria funcao interna tera acesso ao scopo das variaveis
 
 var increase = (function() { // funcao auto-invocada que retorna uma funcao
 	var contator = 0;
